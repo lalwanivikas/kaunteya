@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello</title>
+</head>
+<body>
+  <script type="text/javascript">
+    var url = window.location.search;
+    url = url.replace("?", '');
+    var h1 = document.createElement('h1');
+    h1.innerHTML = url;
+    document.body.appendChild(h1);
+  </script>
+</body>
+</html>
